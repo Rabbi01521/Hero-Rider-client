@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.logo {
+  font-family: "Shadows Into Light", cursive !important;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .smallDevice {
+    display: none !important;
+  }
+  .menuButton {
+    display: block;
+  }
+  .logo {
+    text-align: center !important;
+  }
+}
