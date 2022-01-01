@@ -43,7 +43,7 @@ const ManageLearners = () => {
               const remainingOrders = learners.filter(
                 (rider) => rider._id !== id
               );
-              setLearners(remainingOrders);
+              setToRender(remainingOrders);
             }
           });
       }

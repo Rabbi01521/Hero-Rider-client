@@ -63,7 +63,7 @@ const ManageRiders = () => {
               const remainingOrders = riders.filter(
                 (rider) => rider._id !== id
               );
-              setRiders(remainingOrders);
+              setToRender(remainingOrders);
             }
           });
       }
